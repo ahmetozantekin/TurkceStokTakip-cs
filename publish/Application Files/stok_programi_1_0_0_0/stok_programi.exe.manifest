@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="stok_programi.exe" version="1.0.0.0" publicKeyToken="9df8999b15e12a75" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="stok_programi" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="stok_programi.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.VisualBasic.PowerPacks.Vs" version="10.0.0.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="WindowsBase" version="3.0.0.0" publicKeyToken="31bf3856ad364e35" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="stok_programi.exe" size="180224">
+      <assemblyIdentity name="stok_programi" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>xms+w2SERgWFKtYJHaFFdX4sEbk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="icon.ico" size="15086">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>5P/foQ9wNAxWHRQ3lEQ3EFo6MoM=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=AhmetOzanTekin\Ahmet Ozan Tekin" issuerKeyHash="800155ef5e7e37928a5933b867962437058394fc" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>uDvYfQxGxGBUiMtLU9gdM4c6CIo=</DigestValue></Reference></SignedInfo><SignatureValue>R+QzIg3re1hNcLm7EaR5qOlFba3/2DPkqjb0QI5G1IjI9oedr6S/grpXsRQR0eduCLyYDR/Emr6er5oVIJuj/8KbXgBGEp5QJQgsYL8uXIQ4dAR66nVoMAdfrEegB+QOG8VnomeqirVEaUUJb96eTyjoVjHEwYGEEsze0x4y9Wc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>nZxJmcLFvrH2utftxvJ3C+Xa/EhmrsdTvgLh/bVkOnAyH1xu6nVlH/FJboB9tV0qBS9j995dsp53Abz/z7LvWOKYwpNcLklFIngZowW1Jn88EIDo/Av5j195x2IgJlMl5FZHiKaCRPkHQbctqXnhzttvND2BNICH0LInT+U3gB0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="8a083a87331dd8534bcb885460c4460c7dd83bb8" Description="" Url=""><as:assemblyIdentity name="stok_programi.exe" version="1.0.0.0" publicKeyToken="9df8999b15e12a75" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=AhmetOzanTekin\Ahmet Ozan Tekin</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>KLjFH3OZnt4qlEnGdjoTQnxMpQw=</DigestValue></Reference></SignedInfo><SignatureValue>kxD04CcDSHlzW0JRia9iMOjLWFQRi5g1K15xfwjPE4OuHI/WCJxT4hN8sV4zyawMW5i4upn12d4nSd8oetVOU+GX+DF4oBMhYD08chKOjGeCpcxkGy07Str6/fvDGj+aTY1G4kRP4oHOsdbSt0eZvHVrfWhGBl2xNL3XncQPZRM=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>nZxJmcLFvrH2utftxvJ3C+Xa/EhmrsdTvgLh/bVkOnAyH1xu6nVlH/FJboB9tV0qBS9j995dsp53Abz/z7LvWOKYwpNcLklFIngZowW1Jn88EIDo/Av5j195x2IgJlMl5FZHiKaCRPkHQbctqXnhzttvND2BNICH0LInT+U3gB0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICFTCCAX6gAwIBAgIQTWuiiqUR/YVPFXQA6av87jANBgkqhkiG9w0BAQUFADBJMUcwRQYDVQQDHj4AQQBoAG0AZQB0AE8AegBhAG4AVABlAGsAaQBuAFwAQQBoAG0AZQB0ACAATwB6AGEAbgAgAFQAZQBrAGkAbjAeFw0xNTA3MjMwODE3MjFaFw0xNjA3MjIxNDE3MjFaMEkxRzBFBgNVBAMePgBBAGgAbQBlAHQATwB6AGEAbgBUAGUAawBpAG4AXABBAGgAbQBlAHQAIABPAHoAYQBuACAAVABlAGsAaQBuMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCdnEmZwsW+sfa61+3G8ncL5dr8SGaux1O+AuH9tWQ6cDIfXG7qdWUf8UlugH21XSoFL2P33l2ynncBvP/Psu9Y4pjCk1wuSUUieBmjBbUmfzwQgOj8C/mPX3nHYiAmUyXkVkeIpoJE+QdBty2peeHO2280PYE0gIfQsidP5TeAHQIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAAGlKCyNuWq2K/2kbsWvu6qzDra/S59huRu0806sSQW8K99YT+mGXLT2Fvz/lMDsmQsH5tVGC1/qNME18f9q9Tpk34KmH/w4a045E0GUkbgCO9vU4Ru+XWP94lbyaDDwFZs6izL5bq34NUUye2ySNRaW/A+qry3TgJzQyRrNulVT</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

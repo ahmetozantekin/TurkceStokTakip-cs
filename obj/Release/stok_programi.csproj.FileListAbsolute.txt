@@ -1,0 +1,12 @@
+C:\Users\Ahmet Ozan Tekin\Desktop\Stok\stok_programi\stok_programi\bin\Release\stok_programi.exe
+C:\Users\Ahmet Ozan Tekin\Desktop\Stok\stok_programi\stok_programi\bin\Release\stok_programi.pdb
+C:\Users\Ahmet Ozan Tekin\Desktop\Stok\stok_programi\stok_programi\obj\Release\stok_programi.csprojResolveAssemblyReference.cache
+C:\Users\Ahmet Ozan Tekin\Desktop\Stok\stok_programi\stok_programi\obj\Release\stok_programi.Form1.resources
+C:\Users\Ahmet Ozan Tekin\Desktop\Stok\stok_programi\stok_programi\obj\Release\stok_programi.Properties.Resources.resources
+C:\Users\Ahmet Ozan Tekin\Desktop\Stok\stok_programi\stok_programi\obj\Release\stok_programi.csproj.GenerateResource.Cache
+C:\Users\Ahmet Ozan Tekin\Desktop\Stok\stok_programi\stok_programi\obj\Release\stok_programi.exe
+C:\Users\Ahmet Ozan Tekin\Desktop\Stok\stok_programi\stok_programi\obj\Release\stok_programi.pdb
+C:\Users\Ahmet Ozan Tekin\Desktop\Stok\stok_programi\stok_programi\bin\Release\stok_programi.exe.manifest
+C:\Users\Ahmet Ozan Tekin\Desktop\Stok\stok_programi\stok_programi\bin\Release\stok_programi.application
+C:\Users\Ahmet Ozan Tekin\Desktop\Stok\stok_programi\stok_programi\obj\Release\stok_programi.exe.manifest
+C:\Users\Ahmet Ozan Tekin\Desktop\Stok\stok_programi\stok_programi\obj\Release\stok_programi.application
